@@ -311,11 +311,11 @@ const BLOG = {
         'https://p2.music.126.net/95wLf3s8WLoQytSVn41DtQ==/109951168645515899.jpg'
     },
     {
-      name: '王都グランセル',
-      artist: 'Falcom Sound Team jdk',
-      url: 'https://music.163.com/song/media/outer/url?id=731355.mp3',
+      name: 'Bird of Time',
+      artist: 'Angela van Dyck',
+      url: 'https://m804.music.126.net/20240508110455/0514991eca108a18f639bb8a0c0fa2c6/jdyyaac/obj/w5rDlsOJwrLDjj7CmsOj/19455174102/265d/46ef/e736/7df671b4ebeec0af08bc32fbdca5544f.m4a?authSecret=0000018f56125cf1179b0aaba0491f5c',
       cover:
-        'https://p1.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+        'https://p1.music.126.net/xGnrvsB7j4ec0hFVPpEKiQ==/109951167902979303.jpg'
     }
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
