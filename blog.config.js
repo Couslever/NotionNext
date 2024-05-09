@@ -306,16 +306,9 @@ const BLOG = {
     {
       name: 'Dragon Age Inquisition Theme (Lofi Cover)',
       artist: 'Merlyn',
-      url: 'https://m704.music.126.net/20240508105748/7cea99fd604daaedb3deff4a3291d45d/jdyyaac/obj/w5rDlsOJwrLDjj7CmsOj/28237950419/8868/2044/99c6/d78c2501737113aa682e92eab8e2cbf2.m4a?authSecret=0000018f560bdb2c03690aaba54e13d8',
+      url: 'https://music.163.com/song/media/outer/url?id=2051324991.mp3',
       cover:
         'https://p2.music.126.net/95wLf3s8WLoQytSVn41DtQ==/109951168645515899.jpg'
-    },
-    {
-      name: 'Bird of Time',
-      artist: 'Angela van Dyck',
-      url: 'https://m804.music.126.net/20240508110455/0514991eca108a18f639bb8a0c0fa2c6/jdyyaac/obj/w5rDlsOJwrLDjj7CmsOj/19455174102/265d/46ef/e736/7df671b4ebeec0af08bc32fbdca5544f.m4a?authSecret=0000018f56125cf1179b0aaba0491f5c',
-      cover:
-        'https://p1.music.126.net/xGnrvsB7j4ec0hFVPpEKiQ==/109951167902979303.jpg'
     }
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
