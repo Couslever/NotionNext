@@ -19,7 +19,7 @@ const SocialButton = () => {
                 <i className='transform hover:scale-125 duration-150 fab fa-github ' />
             </a>}
             {siteConfig('CONTACT_TWITTER') && <a target='_blank' rel='noreferrer' title={'twitter'} href={siteConfig('CONTACT_TWITTER')} >
-                <i className='transform hover:scale-125 duration-150 fab fa-x-twitter ' />
+                <i className='transform hover:scale-125 duration-150 fab fa-twitter ' />
             </a>}
             {siteConfig('CONTACT_TELEGRAM') && <a target='_blank' rel='noreferrer' href={siteConfig('CONTACT_TELEGRAM')} title={'telegram'} >
                 <i className='transform hover:scale-125 duration-150 fab fa-telegram ' />
