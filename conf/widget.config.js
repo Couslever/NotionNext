@@ -42,6 +42,13 @@ module.exports = {
       url: 'https://music.163.com/song/media/outer/url?id=2051324991.mp3',
       cover:
         'https://p2.music.126.net/95wLf3s8WLoQytSVn41DtQ==/109951168645515899.jpg'
+    },
+    {
+      name: 'Lost Elf Theme',
+      artist: 'Firjii',
+      url: 'https://music.163.com/song/media/outer/url?id=2676563926.mp3',
+      cover:
+        'https://p2.music.126.net/1iY0yFM_0a72vH6b1yB0_A==/109951170497685433.jpg'
     }
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
